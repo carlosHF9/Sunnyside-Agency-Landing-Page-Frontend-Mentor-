@@ -1,19 +1,3 @@
-/* ### Primary
-
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
-- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-- Dark blue (photography text): hsl(198, 62%, 26%)
-- Dark moderate cyan (footer): hsl(168, 34%, 41%)
-
-### Neutral
-
-- Very dark desaturated blue: hsl(212, 27%, 19%)
-- Very dark grayish blue: hsl(213, 9%, 39%)
-- Dark grayish blue: hsl(232, 10%, 55%)
-- Grayish blue: hsl(210, 4%, 67%)
-- White: hsl(0, 0%, 100%) */
-
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap');
 
@@ -335,11 +319,17 @@ body {
     color: var(--white);
 }
 
+.hero__arrow-image {
+    justify-self: baseline;
+    align-self: center;
+}
+
 
 @media (min-width: 1024px) {
     .hero__arrow-image {
         transform: scale(1.3);
     }
+}
 
 @media (min-width: 1920px) {
 
@@ -401,12 +391,10 @@ body {
                          'three'
                          'four'
                          'five'
-                         'six'
-    ;
+                         'six';
+
 
     
-
-    background-size: cover;
 }
 
 @media (min-width: 1024px) {
@@ -414,11 +402,9 @@ body {
     .speech-session {
         grid-template-areas: 'two one'
                              'three four'
-                             'five six'
-                         
-    ;
+                             'five six';
 
-    grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
     }
 }
@@ -781,7 +767,7 @@ body {
     display: flex;
     flex-direction: column;
     color: var(--dark-moderate-cyan);
-    background: rgba(145,211,197,255);
+    background-color: rgba(145,211,197,255);
     font-family: var(--barlow);
     text-align: center;
     padding-top: 40px;

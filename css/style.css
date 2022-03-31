@@ -126,7 +126,7 @@ body {
 
 
 .main-session {
-    background-image: url('../../images/mobile/image-header.jpg');
+    background-image: url('../images/mobile/image-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -135,7 +135,7 @@ body {
 @media (min-width: 1024px) {
 
     .main-session {
-        background-image: url('../../images/desktop/image-header.jpg');
+        background-image: url('../images/desktop/image-header.jpg');
     }
 }
 
@@ -563,14 +563,14 @@ body {
 .cherry-area {
     grid-area: five;
     width: 100%;
-    background-image: url('/images/mobile/image-graphic-design.jpg');
+    background-image: url('../images/mobile/image-graphic-design.jpg');
 
     
 }
 
 @media (min-width: 1058px) {
     .cherry-area {
-        background-image: url('/images/desktop/image-graphic-design.jpg');
+        background-image: url('../images/desktop/image-graphic-design.jpg');
     }
 }
 
@@ -613,13 +613,13 @@ body {
 
 .mandarin-area {
     grid-area: six;
-    background-image: url('/images/mobile/image-photography.jpg');
+    background-image: url('../images/mobile/image-photography.jpg');
 }
 
 @media (min-width: 1058px){
 
     .mandarin-area {
-        background-image: url('/images/desktop/image-photography.jpg');
+        background-image: url('../images/desktop/image-photography.jpg');
     }
 }
 
